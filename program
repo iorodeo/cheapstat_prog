@@ -1,0 +1,1 @@
+sudo avrdude -c avrispmkII -p x32a4  -U flash:w:CheapStat_111810.hex -U eeprom:w:CheapStat_111810_EEPROM.hex
